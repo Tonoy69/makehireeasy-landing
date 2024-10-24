@@ -1,0 +1,108 @@
+
+.faq-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+.bg-home-2 {
+    padding: 160px 0;
+}
+
+.accordion-button {
+    background-color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #0d6efd;
+    background-color: #e7f1ff;
+    font-weight: 600;
+}
+
+.accordion-item {
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.accordion-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-body {
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 1.7;
+    background-color: #fff;
+}
+
+/* Remove Bootstrap Default Arrow Icon */
+.accordion-button::after {
+    display: none;
+}
+
+/* Icon Rotation Animation */
+.accordion-button i {
+    transition: transform 0.3s;
+    font-size: 1.2rem;
+}
+
+.accordion-button:not(.collapsed) i {
+    transform: rotate(180deg); /* Rotate icon on expand */
+}
+
+/* Footer Section */
+.footer-section {
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding: 20px 0; /* Reduced padding for a smaller height */
+}
+
+.footer-section h5 {
+    color: #ffffff;
+    margin-bottom: 10px; /* Less space below heading */
+}
+
+.footer-section p {
+    font-size: 0.875rem; /* Smaller text size */
+    margin-bottom: 0;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #adb5bd;
+    font-size: 0.875rem; /* Smaller link text size */
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #ffffff;
+}
+
+.footer-section .social-media a {
+    color: #adb5bd;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.footer-section .social-media a:hover {
+    color: #ffffff;
+}
+
+.footer-section .fab {
+    transition: color 0.3s ease;
+}
+
+.footer-section .fab:hover {
+    color: #0d6efd;
+}
+
+.footer-section p.small {
+    font-size: 0.8rem; /* Smaller font for copyright */
+    margin-bottom: 0;
+}
